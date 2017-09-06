@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">2048 Time Killer</string>
+
+
+    <string name="versionInfo">1.0</string>
+
+    <string name="app_id">ca-app-pub-6385771930770544~5615494514</string>
+    <string name="banner_game">ca-app-pub-6385771930770544/7092227713</string>
+    <string name="interstitial_button">ca-app-pub-6385771930770544/8511268512</string>
+
+
+    <string name="copy_right">Copyrights © %1$d</string>
+    <string name="developedBy">A Rising Hope product</string>
+    <string name="description">The 2048 Time Killer is a fun, addictive, simple and logical number puzzle game making your mind more relaxed and clam.</string>
+    <string name="email">risinghopedev@gmail.com</string>
+    <string name="facebookId">250162222131848</string>
+    <string name="shareText">Hi, It\'s Time to kill Time using Time Killing Machine...</string>
+
+</resources>

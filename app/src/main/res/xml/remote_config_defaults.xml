@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>sno</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>heading</key>
+        <value>Heading</value>
+    </entry>
+    <entry>
+        <key>description</key>
+        <value>Description</value>
+    </entry>
+    <entry>
+        <key>btnTxt</key>
+        <value>Button Text</value>
+    </entry>
+    <entry>
+        <key>imgUrl</key>
+        <value>none</value>
+    </entry>
+    <entry>
+        <key>backColor</key>
+        <value>white</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

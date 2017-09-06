@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood_small"
+    tools:context="com.tree.game.sittugame.Game">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/score_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/score_head_shape"
+                android:gravity="center"
+                android:text="Score"
+                android:textColor="@color/scoreFore" />
+
+            <TextView
+                android:id="@+id/totalScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/scorePad"
+                android:textColor="@color/scoreFore"
+                android:textSize="@dimen/scoreTS" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/score_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bshead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/score_head_shape"
+                android:gravity="center"
+                android:text="Best Score"
+                android:textColor="@color/scoreFore" />
+
+            <TextView
+                android:id="@+id/bestScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/scorePad"
+                android:textColor="@color/scoreFore"
+                android:textSize="@dimen/scoreTS" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/score_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/score_head_shape"
+                android:gravity="center"
+                android:text="Target"
+                android:textColor="@color/scoreFore" />
+
+            <TextView
+                android:id="@+id/targetTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/scorePad"
+                android:text="2048"
+                android:textColor="@color/scoreFore"
+                android:textSize="@dimen/scoreTS" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/windowBorderW"
+        android:layout_marginRight="@dimen/windowBorderW"
+        android:background="@drawable/block_frame"
+        android:orientation="vertical"
+        android:padding="@dimen/frameBorderW">
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tl"
+        android:layout_marginLeft="@dimen/windowBorderW"
+        android:layout_marginRight="@dimen/windowBorderW"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/undoB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="undo"
+            android:text="Undo"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/breakB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="breakATile"
+            android:text="Break"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/newGameB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:onClick="startNewGame"
+            android:text="New Game"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/gameBack"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginLeft="@dimen/windowBorderW"-->
+    <!--android:layout_marginRight="@dimen/windowBorderW"-->
+    <!--android:background="@color/gameAreaBack" />-->
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/avGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_game" />
+
+</RelativeLayout>

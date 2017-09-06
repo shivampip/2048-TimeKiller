@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood_small"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tree.game.sittugame.MainActivity">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/contiFB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="continueGame"
+        android:text="Continue"
+        android:textColor="#ffffff"
+        fbutton:buttonColor="@color/fbutton_color_amethyst"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_asbestos"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="newGame"
+        android:text="New Game"
+        android:textColor="#ffffff"
+        fbutton:buttonColor="@color/fbutton_color_amethyst"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_asbestos"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="setting"
+        android:text="Setting"
+        android:textColor="#ffffff"
+        fbutton:buttonColor="@color/fbutton_color_amethyst"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_asbestos"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="invite"
+        android:text="Invite"
+        android:textColor="#ffffff"
+        fbutton:buttonColor="@color/fbutton_color_amethyst"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_asbestos"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="about"
+        android:text="About"
+        android:textColor="#ffffff"
+        fbutton:buttonColor="@color/fbutton_color_amethyst"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_asbestos"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textColor="#ffffff"
+        fbutton:buttonColor="@color/fbutton_color_amethyst"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_asbestos"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+
+</LinearLayout>

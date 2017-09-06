@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="blockBorderCol">#000000</color>
+    <color name="scoreBorderCol">#000000</color>
+
+    <color name="colDef">#00dce2ef</color>
+
+    <color name="col2">#4e00b1</color>
+    <color name="col4">#c1007e</color>
+    <color name="col8">#dac000</color>
+    <color name="col16">#2ea300</color>
+    <color name="col32">#0084bc</color>
+    <color name="col64">#890084</color>
+    <color name="col128">#de4a15</color>
+    <color name="col256">#027956</color>
+    <color name="col512">#110d8e</color>
+    <color name="col1024">#c7001e</color>
+    <color name="col2048">#3d0560</color>
+    <color name="col4096">#8c2138</color>
+    <color name="col8192">#170a54</color>
+    <color name="col16384">#211e30</color>
+    <color name="col32768">#000000</color>
+
+
+    <!--Score-->
+    <color name="scoreHeadBack">#1e0854</color>
+    <color name="scoreBack">#685f9caf</color>
+    <color name="gameAreaBack">#00000000</color>
+    <color name="scoreFore">#ffffff</color>
+
+    <color name="windowBorderCol">#61330f</color>
+
+    <color name="mainButtonTextC">#ffffff</color>
+
+
+
+    <color name="fbutton_color_amethyst">#6a1b9a</color>
+    <color name="fbutton_color_asbestos">#38006b</color>
+
+
+    <array name="rainbow">
+        <item>@color/bright_pink</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </array>
+
+    <array name="color_pallet">
+        <item>#640047</item>
+        <item>@color/tomato</item>
+        <item>@color/tangerine</item>
+        <item>#FFE658</item>
+        <item>@color/sage</item>
+        <item>@color/peacock</item>
+        <item>@color/blueberry</item>
+        <item>#607d8b</item>
+        <item>#6a1b9a</item>
+        <item>#1a237e</item>
+        <item>@color/graphite</item>
+        <item>#1b5e20</item>
+        <item>#570d24</item>
+        <item>#61cea1</item>
+        <item>#DFE2DB</item>
+        <item>#FF9009</item>
+    </array>
+
+</resources>

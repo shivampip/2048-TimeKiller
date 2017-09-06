@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners
+        android:topRightRadius="@dimen/blockTR"
+        android:bottomLeftRadius="@dimen/blockBL"
+        android:topLeftRadius="@dimen/blockTL"
+        android:bottomRightRadius="@dimen/blockBR"/>
+
+    <stroke
+        android:width="@dimen/windowBorderW"
+        android:color="@color/windowBorderCol"/>
+
+    <padding
+        android:left="@dimen/windowBorderW"
+        android:right="@dimen/windowBorderW"
+        android:top="@dimen/windowBorderW"
+        android:bottom="@dimen/windowBorderW"/>
+
+    <solid
+        android:color="@color/gameAreaBack"/>
+
+</shape>
