@@ -1,5 +1,8 @@
 2048 Time Killer
 ======
+
+<img src= "images/highIcon.png" width="25%"></img>
+
 **2048 Time Killer** is based on a personality test suggested by Dalai Lama. Just by answering 3 questions, know yourself in a much better way....
 
 #### Screenshot
